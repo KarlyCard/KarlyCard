@@ -1,0 +1,100 @@
+   header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    padding: 40px;
+    }
+
+   header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   }
+   header ul li{
+    margin: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+    }
+   
+    
+   img{
+        width: 150px;
+    }
+    h1{
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+    }
+
+    h2{
+        font-size: 70px;
+        color: rgb(253, 253, 251);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h3{
+        font-size: 30px;
+        color: rgb(255, 255, 218);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p{
+        font-size: 36px;
+        color: rgb(226, 226, 191);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #nosotros{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        background-color: black;
+        
+    }
+    @media(max-width:760px){
+        #nosotros{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(9, 9, 15);
+    }
+    .caja{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+
+  @media(max-width:760px){
+    #marcas{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    #boton{
+        background-color: transparent;
+        border: none;
+    }
+        .nosotros{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    @media(max-width:760px){
+    #Ubicación{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+   
+
